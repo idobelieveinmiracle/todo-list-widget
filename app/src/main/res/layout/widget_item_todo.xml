@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/todo_item_background"
+    android:padding="13dp"
+    android:layout_marginVertical="6dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:id="@+id/item_check"
+        android:src="@drawable/ic_unchecked"
+        android:layout_width="18dp"
+        android:layout_height="18dp" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:textColor="#030303" />
+
+    <TextView
+        android:id="@+id/item_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:paddingHorizontal="5dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#C73737"/>
+
+</LinearLayout>
